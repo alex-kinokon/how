@@ -103,8 +103,10 @@ async function main() {
       chalk.gray(" (y/n) ")
   );
 
-  if ((await keypress()) === "y") {
-    process.stdout.write(os.EOL);
+  const yn = await keypress()
+  process.stdout.write(os.EOL);
+
+  if (yn === "y") {
     execSync(answer, { stdio: "inherit" });
   }
 
