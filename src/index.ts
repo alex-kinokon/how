@@ -27,7 +27,7 @@ async function main() {
 
   const answer = res.text
     .trim()
-    .replace(/^```/gm, "")
+    .replace(/^```(sh|bash)?/gm, "")
     .replace(/```$/gm, "")
     .trim();
 
