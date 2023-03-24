@@ -4,13 +4,9 @@
     "build": "./esbuild.js"
   },
   "dependencies": {
-    "@dqbd/tiktoken": "^1.0.2",
     "@types/node": "^18.15.7",
     "chalk": "^5.2.0",
     "cli-highlight": "^2.1.11",
-    "esbuild": "^0.17.12",
-    "eventsource-parser": "^1.0.0",
-    "keyv": "^4.5.2",
-    "uuid": "^9.0.0"
+    "esbuild": "^0.17.12"
   }
 }
